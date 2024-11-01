@@ -1,0 +1,57 @@
+/* WCC custom admin field design */
+.wcc-admin-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.wcc-admin-field label {
+    display: block;
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.wcc-admin-field p {
+    margin: 0;
+    font-style: italic;
+    color: #666;
+}
+
+.wcc-admin-field select, .wcc-admin-field textarea, .wcc-admin-field input[type='number'], .wcc-admin-field input[type='text'] {
+    width: 100%;
+    box-shadow: none;
+    border: 1px solid #bbb;
+}
+
+/* Button generator admin page CSS */
+.wcc-button-generator {
+    width: 98%;
+    padding: 15px;
+}
+
+.wcc-button-gen-visual-representation {
+    width: 100%;
+    padding: 0px 15px 40px 15px;
+    text-align: center;
+}
+
+.wcc-button-gen-visual-representation p {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.wcc-button-gen-visual-representation button {
+    color: #fff;
+    background-color: #0B1839;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#wcc-button-gen-invitation {
+    display: none;
+}

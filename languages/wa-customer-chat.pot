@@ -1,0 +1,394 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WhatsApp Customer Chat\n"
+"POT-Creation-Date: 2019-08-04 16:02+0530\n"
+"PO-Revision-Date: 2019-08-04 16:02+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: whatsapp-customer-chat.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-wcc-admin-menu.php:27
+#: includes/admin/class-wcc-admin-menu.php:28
+msgid "WhatsApp Care"
+msgstr ""
+
+#: includes/admin/class-wcc-admin-menu.php:38
+#: includes/admin/class-wcc-admin-menu.php:39
+#: views/admin/admin-gdpr-settings.php:3 views/admin/admin-gdpr-settings.php:23
+msgid "GDPR Compliance"
+msgstr ""
+
+#: includes/admin/class-wcc-admin-menu.php:47
+#: includes/admin/class-wcc-admin-menu.php:48
+#: views/admin/admin-setting-page.php:30
+msgid "Plugin Support"
+msgstr ""
+
+#: includes/classes/class-wcc-request-callback.php:75
+msgid ""
+"Email Failed. Please check your Wordpress email settings or mail() function."
+msgstr ""
+
+#: plugin-core/classes/wc-field.php:237
+msgid "Upload Image"
+msgstr ""
+
+#: views/admin/admin-add-support-person.php:12
+#: views/admin/admin-edit-support-person.php:14
+msgid "Contact Number"
+msgstr ""
+
+#: views/admin/admin-add-support-person.php:16
+#: views/admin/admin-edit-support-person.php:19
+#: views/admin/admin-product-query-settings.php:57
+msgid ""
+"Enter mobile phone number with the international country code, without + "
+"character. Example:  911234567890 for (+91) 1234567890"
+msgstr ""
+
+#: views/admin/admin-add-support-person.php:23
+#: views/admin/admin-edit-support-person.php:26
+msgid "Name"
+msgstr ""
+
+#: views/admin/admin-add-support-person.php:25
+#: views/admin/admin-edit-support-person.php:29
+msgid "Enter the name of the support person."
+msgstr ""
+
+#: views/admin/admin-add-support-person.php:32
+#: views/admin/admin-edit-support-person.php:36
+msgid "Title/ Designation"
+msgstr ""
+
+#: views/admin/admin-add-support-person.php:34
+#: views/admin/admin-edit-support-person.php:39
+msgid "Enter the title/ designation of the support person."
+msgstr ""
+
+#: views/admin/admin-add-support-person.php:41
+#: views/admin/admin-edit-support-person.php:46
+msgid "Image"
+msgstr ""
+
+#: views/admin/admin-add-support-person.php:44
+#: views/admin/admin-edit-support-person.php:50
+msgid "Upload support person image"
+msgstr ""
+
+#: views/admin/admin-appearance-settings.php:14
+msgid "Background Color"
+msgstr ""
+
+#: views/admin/admin-appearance-settings.php:17
+msgid "Default value: #0B1839"
+msgstr ""
+
+#: views/admin/admin-appearance-settings.php:18
+msgid "Select widget background color."
+msgstr ""
+
+#: views/admin/admin-appearance-settings.php:25
+msgid "Text Color"
+msgstr ""
+
+#: views/admin/admin-appearance-settings.php:28
+msgid "Default value: #FFFFFF"
+msgstr ""
+
+#: views/admin/admin-appearance-settings.php:29
+msgid "Select widget text color."
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:11
+msgid "Display On Mobile"
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:12
+msgid "Select widget position on mobile."
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:16
+#: views/admin/admin-basic-settings.php:33
+#: views/admin/admin-basic-settings.php:50
+msgid "Yes"
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:17
+#: views/admin/admin-basic-settings.php:34
+#: views/admin/admin-basic-settings.php:51
+msgid "No"
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:20
+#: views/admin/admin-basic-settings.php:37
+msgid "Bottom Left"
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:21
+#: views/admin/admin-basic-settings.php:38
+msgid "Bottom Right"
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:28
+msgid "Display On Desktop"
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:29
+msgid "Select widget position on desktop/ laptop."
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:45
+msgid "Auto Popup"
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:46
+msgid "Auto popup widget."
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:61
+msgid "Custom CSS"
+msgstr ""
+
+#: views/admin/admin-basic-settings.php:64
+msgid "Add your custom CSS here."
+msgstr ""
+
+#: views/admin/admin-gdpr-settings.php:26
+#: views/admin/admin-product-query-settings.php:17
+msgid "Enable/ Disable"
+msgstr ""
+
+#: views/admin/admin-gdpr-settings.php:33
+msgid "GDPR Message"
+msgstr ""
+
+#: views/admin/admin-gdpr-settings.php:36
+#, php-format
+msgid "Use %s to add privacy page link"
+msgstr ""
+
+#: views/admin/admin-gdpr-settings.php:44
+msgid "Privacy page"
+msgstr ""
+
+#: views/admin/admin-gdpr-settings.php:45
+msgid "Select your privacy page."
+msgstr ""
+
+#: views/admin/admin-plugin-support.php:5
+msgid "Need Customization? Hire an Expert."
+msgstr ""
+
+#: views/admin/admin-plugin-support.php:6
+msgid ""
+"We know it’s not easy to find a reliable WordPress expert at a price you can "
+"afford. We have a hand-picked team of professional, reliable, experienced "
+"and FRIENDLY experts."
+msgstr ""
+
+#: views/admin/admin-plugin-support.php:7
+msgid "Hire Now"
+msgstr ""
+
+#: views/admin/admin-plugin-support.php:14
+msgid "Customer Support."
+msgstr ""
+
+#: views/admin/admin-plugin-support.php:15
+msgid ""
+"If you need instant support then choose following options. Our support will "
+"reply as soon as possible after you send us a message."
+msgstr ""
+
+#: views/admin/admin-plugin-support.php:26
+msgid "Share Debug Report With Our Support Team."
+msgstr ""
+
+#: views/admin/admin-plugin-support.php:27
+msgid ""
+"Generate, download, and share the debug report with our experts. Report "
+"contains site URL, WP version, list of activated plugins and plugin options "
+"setting."
+msgstr ""
+
+#: views/admin/admin-plugin-support.php:31
+msgid "Generate Now"
+msgstr ""
+
+#: views/admin/admin-plugin-support.php:33
+msgid "Download Report"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:14
+msgid "Product Query"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:24
+msgid "Button Background Color"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:27
+msgid "Select button background color."
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:34
+msgid "Button Text Color"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:37
+msgid "Select button text color."
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:44
+msgid "Button Text"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:47
+msgid "Enter the product query button text."
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:54
+msgid "Contact Person Number"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:64
+msgid "Button Location"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:68
+msgid "After Add To Cart Button"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:69
+msgid "Before Add To Cart Button"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:70
+msgid "WooCommerce Share"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:72
+msgid "Select the button location on WooCommerce product page."
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:79
+msgid "Pre-populate Message"
+msgstr ""
+
+#: views/admin/admin-product-query-settings.php:82
+#, php-format
+msgid "Use %s for product link and %s for product name."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: views/admin/admin-setting-page.php:3
+msgid "WhatsApp Customer Chat"
+msgstr ""
+
+#: views/admin/admin-setting-page.php:14
+msgid "Appearance"
+msgstr ""
+
+#: views/admin/admin-setting-page.php:20
+msgid "Basic Settings"
+msgstr ""
+
+#: views/admin/admin-setting-page.php:25
+msgid "Support Persons"
+msgstr ""
+
+#: views/admin/admin-support-persons-settings.php:12
+msgid "Edit"
+msgstr ""
+
+#: views/admin/admin-support-persons-settings.php:13
+msgid "Delete"
+msgstr ""
+
+#: views/admin/admin-support-persons-settings.php:26
+msgid "Add Support Person"
+msgstr ""
+
+#: views/admin/admin-support-persons-settings.php:49
+msgid "Support Message"
+msgstr ""
+
+#: views/admin/admin-support-persons-settings.php:53
+msgid "Enter few words about your support."
+msgstr ""
+
+#: views/admin/admin-support-persons-settings.php:61
+msgid "Input Placeholder Text"
+msgstr ""
+
+#: views/admin/admin-support-persons-settings.php:64
+#, php-format
+msgid "Use %s for person name."
+msgstr ""
+
+#: views/admin/admin-support-persons-settings.php:65
+msgid "Enter the input placeholder text."
+msgstr ""
+
+#: views/admin/notifications/plugin-review.php:2
+msgid "Leave A Review?"
+msgstr ""
+
+#: views/admin/notifications/plugin-review.php:6
+#, php-format
+msgid ""
+"We hope you've enjoyed using %s Would you consider leaving us a review on %s"
+msgstr ""
+
+#: views/admin/notifications/plugin-review.php:15
+msgid "Sure! I'd love to!"
+msgstr ""
+
+#: views/admin/notifications/plugin-review.php:19
+msgid "I've already left a review"
+msgstr ""
+
+#: views/admin/notifications/plugin-review.php:23
+msgid "Never show again"
+msgstr ""
+
+#: views/admin/notifications/save-settings.php:2
+msgid "Settings saved."
+msgstr ""
+
+#: whatsapp-customer-chat.php:106
+msgid "Settings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wacustomerchat.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WhatsApp Customer Chat plugin provides better and easy way to communicate "
+"visitors and customers directly to your support person."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WeCreativez"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wecreativez.com"
+msgstr ""

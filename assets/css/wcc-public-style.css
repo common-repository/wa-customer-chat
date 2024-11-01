@@ -1,0 +1,395 @@
+/* Reseter */
+.wcc-widget * {
+    box-sizing: border-box;
+    line-height: 1.618;
+}
+
+.wcc-widget p {
+    margin: 0;
+}
+
+.wcc-widget a {
+    text-decoration: underline;
+}
+
+.wcc-widget img {
+    max-width: 100%;
+}
+
+/* Utilites */
+.wcc-v-hidden { visibility: hidden; }
+
+/* Form elements */
+.wcc-widget input.wcc-btn, 
+.wcc-widget button.wcc-btn, 
+.wcc-widget a.wcc-btn, 
+.wcc-widget .wcc-btn {
+    text-decoration: none !important;
+    vertical-align: middle !important;
+    padding: 8px 20px !important;
+    border-radius: 4px !important;
+    margin: 5px 0 10px 0 !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+    -webkit-appearance: none !important;
+    display: inline-block !important;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15) !important;
+    cursor: pointer !important;
+    line-height: 21px !important;
+    outline: none !important;
+}
+
+.wcc-widget .wcc-btn.wcc-btn--full {
+    width: 100% !important;
+}
+
+.wcc-widget input[type="text"], 
+.wcc-widget input[type="number"], 
+.wcc-widget input[type="tel"], 
+.wcc-widget input[type="email"], 
+.wcc-widget input[type="search"], 
+.wcc-widget textarea {
+    width: 100% !important;
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05) !important;
+    border-radius: 4px !important;
+    border: 1px solid #ddd !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+    outline: none !important;
+    padding: 4px 10px !important;
+    margin: 0 !important;
+    -webkit-appearance: none !important;
+    vertical-align: baseline !important;
+}
+
+.wcc-widget textarea {
+    resize: none !important;
+    height: 50px !important;
+}
+
+/* Loaders */
+.wcc-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 190px auto 80px auto;
+}
+
+.wcc-cube-grid .wcc-cube {
+    width: 33%;
+    height: 33%;
+    float: left;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    -webkit-animation: wcc-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    animation: wcc-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+
+.wcc-cube-grid .wcc-cube1 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.wcc-cube-grid .wcc-cube2 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.wcc-cube-grid .wcc-cube3 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.wcc-cube-grid .wcc-cube4 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.wcc-cube-grid .wcc-cube5 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.wcc-cube-grid .wcc-cube6 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.wcc-cube-grid .wcc-cube7 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.wcc-cube-grid .wcc-cube8 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.wcc-cube-grid .wcc-cube9 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes wcc-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+
+}
+
+@keyframes wcc-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+
+}
+
+
+/* Shaker */
+@keyframes wcc-shaker {
+    0% {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+    25% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    50% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+
+}
+.wcc-shake-animation {
+    animation: wcc-shaker 400ms;
+}
+
+/* Widget */
+.wcc-widget {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    z-index: 9999999;
+    width: 60px;
+    height: 60px;
+    color: #868B9D;
+}
+
+.wcc-widget-popup {
+    width: 300px;
+    box-shadow: 0 30px 90px -20px rgba(0, 0, 0, .3);
+    border-radius: 8px;
+    background-color: #fff;
+    transition: all 300ms ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(25px);
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10px;
+    margin-top: 10px
+}
+
+.wcc-widget-popup.wcc-widget-popup--open {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.wcc-widget-popup__header {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 8px 8px 0 0;
+}
+
+.wcc-widget-navigation {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.wcc-widget-navigation--close, 
+.wcc-widget-navigation--back {
+    padding: 2px 16px;
+    cursor: pointer;
+}
+
+.wcc-widget-support {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wcc-widget-support-person {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.wcc-widget-support-person:hover .wcc-widget-support-person__wrapper {
+    transform: scale(1.05);
+}
+
+.wcc-widget-support-person__wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 90px;
+    width: 90px;
+    margin-bottom: 4px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+    position: relative;
+    transition: transform 200ms ease-in-out;
+}
+
+.wcc-widget-support-person__wrapper::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    z-index: 9999;
+    top: 70px;
+    right: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.wcc-widget-support-person__wrapper.wcc-widget-support-person--avail::after {
+    background: #3EEB5D;
+}
+
+.wcc-widget-support-person__wrapper.wcc-widget-support-person--unavail::after {
+    background: #FFEB3B;
+}
+
+.wcc-widget-support-person-unavail-msg {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.wcc-widget-support-person__wrapper img {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.wcc-widget-support-person__name, .wcc-widget-support-person__title {
+    line-height: 20px;
+}
+
+.wcc-widget-support-person__name {
+    color: #0B1839;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.wcc-widget-support-person__title {
+    color: #868B9D;
+    font-size: 14px;
+}
+
+.wcc-widget-support-message {
+    background-color: #0B1839;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.wcc-widget-support-message > div {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.wcc-widget-support-message a {
+    text-decoration: underline;
+    color: #fff !important;
+}
+
+.wcc-widget-popup__footer {
+    position: relative;
+    z-index: -1;
+}
+
+.wcc-widget-trigger {
+    width: 60px;
+    height: 60px;
+    background-color: #0B1839;
+    color: #fff;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.wcc-widget-trigger i {
+}
+
+.wcc-widget-selected-person-form {
+    display: flex;
+    border-top: 1px solid #ccc;
+    align-items: center;
+    margin-top: 0;
+    justify-content: space-around;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+}
+
+.wcc-widget .wcc-widget-selected-person-form input[type="text"] {
+    width: 80% !important;
+    padding: 15px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+    margin: 0 !important;
+    font-size: 15px !important;
+    -webkit-appearance: none !important;
+    border: none !important;
+}
+
+.wcc-widget-selected-person-form .wcc-send-button {
+    height: 58px;
+    width: 58px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wcc-widget-selected-person-form .wcc-send-button svg,
+.wcc-widget-selected-person-form .wcc-send-button img {
+    max-width: 100%;
+    height: auto;
+}
